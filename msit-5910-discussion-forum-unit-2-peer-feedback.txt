@@ -1,5 +1,0 @@
-Rating: 10 (A)
-
-Comment:
-Hello Amit,
-You have provided an excellent and comprehensive analysis of resource allocation, particularly in how you distinguished it as a "tactical arm of planning" rather than just a logistical list. Your breakdown of the four critical resource types—Human, Time, Technological, and Financial—is insightful, and I especially appreciated your point about treating "time" itself as an allocatable resource with buffers, which aligns perfectly with Goldratt’s Critical Chain Project Management theory. To further enhance this already strong post, you could briefly mention how you would handle resource conflicts (e.g., "resource leveling") when two critical tasks compete for the same specialized human expertise, as this is a common challenge in capstone projects. Great work integrating recent sources like Jain (2025) to support your arguments!
