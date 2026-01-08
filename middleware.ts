@@ -3,14 +3,19 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
 export function middleware(request: NextRequest) {
-  // Check for Supabase access token cookie (adjust name if needed)
-  const token = request.cookies.get("sb-access-token")?.value;
-  if (!token && request.nextUrl.pathname !== "/auth/login") {
-    // Redirect to login if not authenticated
+  try {
+    // Check for Supabase access token cookie (adjust name if needed)
+    const token = request.cookies.get("sb-access-token")?.value;
+    if (!token && request.nextUrl.pathname !== "/auth/login") {
+      // Redirect to login if not authenticated
+      return NextResponse.redirect(new URL("/auth/login", request.url));
+    }
+    // Allow request to proceed
+    return NextResponse.next();
+  } catch (error) {
+    // In case of any unexpected error, redirect to login (fail safe)
     return NextResponse.redirect(new URL("/auth/login", request.url));
   }
-  // Allow request to proceed
-  return NextResponse.next();
 }
 
 export const config = {
