@@ -1,8 +1,16 @@
-import { updateSession } from "@/lib/supabase/middleware"
-import type { NextRequest } from "next/server"
 
-export async function middleware(request: NextRequest) {
-  return await updateSession(request)
+import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
+
+export function middleware(request: NextRequest) {
+  // Check for Supabase access token cookie (adjust name if needed)
+  const token = request.cookies.get("sb-access-token")?.value;
+  if (!token && request.nextUrl.pathname !== "/auth/login") {
+    // Redirect to login if not authenticated
+    return NextResponse.redirect(new URL("/auth/login", request.url));
+  }
+  // Allow request to proceed
+  return NextResponse.next();
 }
 
 export const config = {
