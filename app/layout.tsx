@@ -12,15 +12,14 @@ export const metadata: Metadata = {
   title: "HO-MFA | Healthcare-Optimized Multi-Factor Authentication",
   description:
     "Secure, HIPAA-compliant authentication designed for healthcare environments. Balance security with clinical workflow efficiency.",
-  generator: "v0.app",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/icon-light-32x32.svg",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/icon-dark-32x32.svg",
         media: "(prefers-color-scheme: dark)",
       },
       {
@@ -28,7 +27,7 @@ export const metadata: Metadata = {
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/apple-icon.svg",
   },
 }
 
