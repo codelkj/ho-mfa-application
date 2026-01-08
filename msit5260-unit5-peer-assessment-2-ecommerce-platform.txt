@@ -1,0 +1,73 @@
+MSIT 5260-01 - AY2026-T1
+Written Assignment Unit 5 - Peer Assessment Form
+
+Peer Submission: Preliminary Interface Design for a Multi-Language E-Commerce Platform
+Assessor: Johnson Mabgwe
+Date: October 14, 2025
+
+================================================================================
+ASSESSMENT CRITERIA
+================================================================================
+
+ASPECT 1: QUALITY OF WRITING (Weight: 20%)
+Grade: 10/10 (Advanced)
+
+Comment:
+The writing quality is excellent with no grammatical errors and clear, informative text throughout. The document is well-organized with numbered sections that guide the reader logically through brainstorming, preliminary design, storyboards, and conclusion. The author uses professional academic language with appropriate technical terminology (e.g., "information architecture," "visual hierarchy," "WCAG 2.1 standards"). Complex concepts like interaction metaphors are explained clearly with concrete examples (Passport/Key for account creation, Marketplace Stall for shopping, Help Desk Counter for support). The writing demonstrates strong command of HCI vocabulary and effectively communicates design decisions without ambiguity. Transitions between sections are smooth, and the reader can easily follow the design evolution from concept to implementation. The document meets all formatting requirements and maintains a consistent professional tone.
+
+--------------------------------------------------------------------------------
+
+ASPECT 2: CITATIONS OF SOURCES (Weight: 15%)
+Grade: 10/10 (Advanced)
+
+Comment:
+The submission demonstrates exemplary citation practices with five credible sources cited in proper APA format: Allarbarton (2021), Brenchley (2020), Downs (2020), Interaction Design Foundation (n.d.), and UXPin (n.d.). In-text citations are integrated naturally throughout the document to support key design principles and methodologies. The author effectively uses citations to establish theoretical foundations (e.g., "aligning with the fundamental principles of usability and iterative wireframing (Allarbarton, 2021; UXPin, n.d.)"). The reference list is formatted correctly with no errors in author names, publication dates, titles, or URLs. The author goes beyond the minimum requirement of two sources, demonstrating thorough research. Citations are used strategically to support design decisions rather than simply being inserted for compliance, showing scholarly maturity.
+
+--------------------------------------------------------------------------------
+
+ASPECT 3: CRITICAL THINKING (BRAINSTORMING PROCESS) (Weight: 30%)
+Grade: 10/10 (Advanced)
+
+Comment:
+The work shows very detailed examples of critical thinking with comprehensive analysis of the brainstorming process. The author begins by explaining the transition from conceptual modeling (Unit 4) to interface visualization, demonstrating continuity in the design process. The brainstorming activities section describes specific methods used (group discussion, comparative analysis of Amazon/eBay/AliExpress, sketching sessions). Most impressively, the author presents a thorough "Consideration of Design Alternatives" section that evaluates two navigation layouts (side panel vs. top bar) with clear rationale for rejecting one and selecting the other based on specific criteria (horizontal space, mobile responsiveness). The decision matrix approach mentioned for evaluating alternatives (usability, workflow efficiency, aesthetic balance, cultural adaptability) demonstrates sophisticated design thinking. The author also addresses accessibility and inclusivity considerations (WCAG 2.1 compliance, high-contrast elements, keyboard navigation), showing awareness of diverse user needs. The critical thinking extends to explaining why specific interaction metaphors were chosen and how they support user understanding.
+
+--------------------------------------------------------------------------------
+
+ASPECT 4: OVERALL DESIGN AND STORYBOARDS (Weight: 35%)
+Grade: 8/10 (Proficient)
+
+Comment:
+The overall design is well-conceived and clearly described, presenting three key interfaces: Account Creation & Login, Online Purchase Dashboard, and Customer Support Ticket Interface. Each interface is explained with its associated metaphor and key features. The author describes important elements like real-time validation, multilingual toggle, and color-coded ticket statuses. Three use case storyboards are presented (Account Creation, Online Purchase Transaction, Customer Support Ticket Management) with step-by-step descriptions of user interactions.
+
+However, while the textual descriptions are comprehensive, the submission would benefit from more detailed visual sketches or wireframes. The document mentions "grid of product thumbnails," "split-screen view," and "checkout page" but the actual visual representations appear to be minimal or missing from the submitted document. The rubric's "Advanced" level requires presenting "sketches of important windows, dialog boxes, and menu trees" with clear explanations, and presenting "each Concrete Use Cases in storyboard form, includes sketches to illustrate how interface looks at all important points in the task." While the textual descriptions are excellent, the visual component could be more robust to fully meet the "Advanced" criteria. The storyboards describe the user flow well but would be strengthened by more detailed wireframe sketches showing the interface at each step.
+
+This is still strong work that demonstrates solid understanding of interface design, but additional visual documentation would elevate it to the highest level.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+OVERALL FEEDBACK
+================================================================================
+
+This is a strong submission that demonstrates comprehensive understanding of user-centered design principles and multilingual interface considerations. Your e-commerce platform design is thoughtfully conceived with excellent attention to accessibility, cultural adaptability, and usability. The brainstorming process is particularly well-documented, with detailed analysis of design alternatives and clear rationale for your final selections.
+
+Particular strengths include:
+• Exceptional brainstorming documentation with comparative analysis of existing platforms
+• Thorough consideration of design alternatives (side panel vs. top bar navigation) with clear decision rationale
+• Strong focus on accessibility and WCAG 2.1 compliance
+• Effective use of interaction metaphors (Passport, Marketplace Stall, Help Desk Counter) to support user understanding
+• Excellent citation practices with five credible sources integrated naturally
+• Clear explanation of multilingual support features throughout the design
+
+Areas for enhancement:
+• Include more detailed visual wireframes/sketches for each interface component (login window, product grid, checkout flow, support ticket interface)
+• Add visual storyboards showing the interface at each step of the user journey, not just textual descriptions
+• Consider including annotated wireframes that label specific UI elements (buttons, input fields, navigation menus)
+• You might add a menu tree diagram showing the complete navigation structure
+• Consider including before/after sketches showing how the interface adapts for different languages
+
+Your work demonstrates sophisticated design thinking and strong academic writing. The focus on multilingual support and accessibility is particularly commendable and addresses real-world challenges in global e-commerce. With the addition of more detailed visual documentation, this would be an exemplary submission. Great work overall!
+
+Total Score: 38/40 (95%)
+
+================================================================================

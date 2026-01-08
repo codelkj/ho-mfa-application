@@ -1,0 +1,135 @@
+MSIT 5270-01 - AY2026-T1
+Written Assignment Unit 3 - Peer Assessments
+Johnson Mabgwe
+
+===============================================================================
+PEER ASSESSMENT 1: Edward Aleonope's Submission
+===============================================================================
+
+Student: Edward Aleonope
+Assignment: Installing and Evaluating Oracle VM VirtualBox
+
+ASPECT 1: Discussed the importance of virtualization AND Listed the prerequisites to install Oracle VM VirtualBox
+Grade: 10/10 (Advanced)
+
+Comment for Aspect 1:
+Edward provides an exceptional explanation of virtualization's importance, covering multiple dimensions including hardware utilization, security isolation, flexibility, and cost-effectiveness. The discussion effectively connects virtualization to cybersecurity practices, highlighting its value for creating controlled lab environments and safe testing of malicious code. The prerequisites section is comprehensive and well-organized, covering all essential requirements including OS compatibility, processor support (Intel VT-x/AMD-V), memory requirements (2GB minimum, 4GB+ recommended), disk space, administrative rights, and BIOS/UEFI settings. The inclusion of specific technical details like hardware virtualization extensions demonstrates thorough understanding.
+
+ASPECT 2: Discussed the steps of starting the VirtualBox
+Grade: 10/10 (Advanced)
+
+Comment for Aspect 2:
+The steps for starting VirtualBox are elaborately discussed with clear, sequential instructions. Edward provides detailed guidance including launching the application, reviewing the dashboard interface, configuring global settings through File > Preferences, and verifying virtualization support. The inclusion of Figure 1 (VirtualBox Manager Dashboard) and Figure 2 (Preference Settings) enhances the explanation significantly. The systematic approach from initial launch through configuration demonstrates comprehensive understanding of the startup process.
+
+ASPECT 3: Explained the steps to create the first virtual machine with screenshots
+Grade: 9/10 (Advanced)
+
+Comment for Aspect 3:
+Edward provides a detailed, step-by-step explanation of VM creation with excellent supporting figures. The process is well-documented from clicking "New" through Guest Additions installation. Figures 3-5 effectively illustrate the VM creation wizard, memory allocation, and disk size allocation. The explanation includes important technical details like VDI format selection, dynamic allocation, and system configuration adjustments (EFI, video memory, clipboard sharing). Minor deduction for not showing the final running VM state, though the process is thoroughly explained.
+
+ASPECT 4: Use of APA Guidelines
+Grade: 10/10 (Advanced)
+
+Comment for Aspect 4:
+Excellent adherence to APA formatting guidelines with no errors. The paper includes proper title page formatting, consistent in-text citations, and a well-formatted reference list. All sources are cited correctly in APA format, including journal articles, technical documentation, and video sources. The writing demonstrates academic rigor with proper grammar, spelling, and professional presentation throughout.
+
+OVERALL FEEDBACK:
+Edward's submission is exemplary, demonstrating comprehensive understanding of virtualization concepts and practical VirtualBox implementation. The paper effectively balances theoretical knowledge with hands-on experience, supported by clear visual documentation. The academic writing quality is excellent, with proper APA formatting and relevant, credible sources. This work exceeds assignment expectations and provides valuable insights for cybersecurity lab setup.
+
+TOTAL GRADE: 39/40 = 9.75/10
+
+===============================================================================
+PEER ASSESSMENT 2: MacBook Pro M1 Ubuntu ARM64 Submission
+===============================================================================
+
+Student: [Name from submission header]
+Assignment: Virtualization with Oracle VM VirtualBox
+
+ASPECT 1: Discussed the importance of virtualization AND Listed the prerequisites to install Oracle VM VirtualBox
+Grade: 9/10 (Advanced)
+
+Comment for Aspect 1:
+Excellent discussion of virtualization importance covering hardware utilization, security, flexibility, and cost-effectiveness. The cybersecurity perspective is particularly strong, emphasizing isolation benefits for malware testing and penetration testing tools. The educational context is well-articulated, showing practical understanding of VM applications in cybersecurity labs. Prerequisites are comprehensive and well-organized, with specific attention to ARM64 compatibility requirements for Apple Silicon Macs. The inclusion of platform-specific considerations (M1 Mac requirements) demonstrates practical experience and attention to detail.
+
+ASPECT 2: Discussed the steps of starting the VirtualBox
+Grade: 8/10 (Proficient)
+
+Comment for Aspect 2:
+Good coverage of VirtualBox startup steps with platform-specific details for macOS. The explanation includes important security permission requirements unique to macOS, which adds practical value. The four-step process is clear and logical, covering application location, security permissions, program launch, and installation verification. However, the explanation could benefit from more detail about the VirtualBox Manager interface and initial configuration options.
+
+ASPECT 3: Explained the steps to create the first virtual machine with screenshots
+Grade: 9/10 (Advanced)
+
+Comment for Aspect 3:
+Comprehensive step-by-step VM creation process with excellent figure references (Figures 1-8). The explanation covers all essential steps from initial VM creation through Ubuntu installation completion. The ARM64-specific considerations are valuable, including ISO selection and compatibility requirements. The process documentation is thorough, showing practical experience with the actual installation. The inclusion of final desktop screenshot (Figure 8) effectively demonstrates successful completion.
+
+ASPECT 4: Use of APA Guidelines
+Grade: 8/10 (Proficient)
+
+Comment for Aspect 4:
+Good adherence to APA formatting with proper in-text citations and reference list. The paper structure follows academic standards with clear sections and professional presentation. Minor formatting inconsistencies in spacing and some reference formatting could be improved. The sources are relevant and properly cited, though expanding the reference base would strengthen the academic foundation.
+
+OVERALL FEEDBACK:
+This submission demonstrates strong practical understanding of virtualization and VirtualBox implementation, particularly valuable for ARM64/Apple Silicon environments. The hands-on experience is evident throughout, with specific technical details that would benefit other students facing similar platform challenges. The academic writing is solid with room for minor APA formatting improvements.
+
+TOTAL GRADE: 34/40 = 8.5/10
+
+===============================================================================
+PEER ASSESSMENT 3: Kali Linux ARM64 VirtualBox Submission
+===============================================================================
+
+Student: [Name from submission]
+Assignment: Written Assignment Unit 3
+
+ASPECT 1: Discussed the importance of virtualization AND Listed the prerequisites to install Oracle VM VirtualBox
+Grade: 10/10 (Advanced)
+
+Comment for Aspect 1:
+Outstanding explanation of virtualization importance with comprehensive coverage of resource efficiency, multi-OS capability, hardware failure resistance, and application-level virtualization including Docker containers. The discussion demonstrates deep understanding of virtualization concepts across multiple levels. Prerequisites are exceptionally detailed and well-organized, covering all major platforms (Windows, macOS Intel/ARM, Linux, Solaris) with specific technical requirements. The inclusion of CPU-specific requirements (SSE2 for Intel, ARM limitations) and platform-specific installer requirements shows thorough research and understanding.
+
+ASPECT 2: Discussed the steps of starting the VirtualBox
+Grade: 10/10 (Advanced)
+
+Comment for Aspect 2:
+Elaborately discussed startup steps with excellent visual documentation (Figures 1-4). The explanation covers the complete process from download through application launch, including platform-specific considerations for macOS ARM. The step-by-step approach with supporting screenshots makes the process easily replicable. The attention to detail in showing the installer execution and final application interface demonstrates comprehensive understanding.
+
+ASPECT 3: Explained the steps to create the first virtual machine with screenshots
+Grade: 10/10 (Advanced)
+
+Comment for Aspect 3:
+Exceptional documentation of VM creation process with comprehensive screenshots (Figures 5-10). The choice of Kali Linux adds cybersecurity relevance to the assignment. The explanation covers all critical steps from ISO download through complete OS installation, with particular attention to ARM64 compatibility requirements. The detailed resource allocation discussion and final login/desktop screenshots demonstrate successful completion. The process is thoroughly documented and easily replicable.
+
+ASPECT 4: Use of APA Guidelines
+Grade: 8/10 (Proficient)
+
+Comment for Aspect 4:
+Good adherence to APA formatting with proper in-text citations and reference structure. The paper includes relevant academic and technical sources appropriately cited. The writing quality is professional with clear organization. Minor improvements could be made in reference formatting consistency and expanding the academic source base, though the current citations are appropriate and relevant.
+
+OVERALL FEEDBACK:
+This submission is exceptional in its technical depth and practical demonstration. The choice of Kali Linux for the VM creation adds significant cybersecurity relevance, and the comprehensive screenshot documentation makes this an excellent learning resource. The theoretical understanding combined with hands-on implementation demonstrates mastery of virtualization concepts. The ARM64-specific considerations provide valuable insights for students using Apple Silicon hardware.
+
+TOTAL GRADE: 38/40 = 9.5/10
+
+===============================================================================
+SUMMARY OF ASSESSMENTS
+===============================================================================
+
+All three submissions demonstrate strong understanding of virtualization concepts and practical VirtualBox implementation. Each brings unique value:
+
+- Edward Aleonope's submission excels in academic rigor and comprehensive theoretical coverage
+- The MacBook M1 submission provides valuable ARM64/Apple Silicon specific insights
+- The Kali Linux submission adds cybersecurity relevance with excellent visual documentation
+
+Common strengths across all submissions:
+- Strong understanding of virtualization importance
+- Comprehensive prerequisite coverage
+- Detailed step-by-step processes
+- Good use of visual documentation
+- Relevant practical applications
+
+Areas for improvement (minor):
+- Consistent APA formatting refinements
+- Expanded academic source bases
+- Enhanced interface configuration details
+
+All submissions meet or exceed assignment requirements and demonstrate practical competency in virtualization technology implementation.

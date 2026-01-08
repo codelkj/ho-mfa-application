@@ -1,0 +1,94 @@
+MSIT 5270 - Foundations of Cybersecurity
+Written Assignment Unit 2 - Peer Assessments
+Student: Johnson Mabgwe
+
+=============================================================================
+PEER ASSESSMENT 1: CLASSMATE 1 (ANONYMOUS SUBMISSION)
+=============================================================================
+
+**ASPECT 1: Detailed information on groups/organizations using Social Engineering Tools (40% weight)**
+**Grade: 10/10 (Advanced)**
+
+**Comment for Aspect 1:**
+This submission provides exceptionally detailed information on organizations using social engineering tools. The author comprehensively covers five distinct categories: corporate enterprises (with specific examples like JPMorgan Chase and Bank of America), government agencies, security firms and ethical hackers, educational institutions, and nonprofit research organizations. Each category includes specific examples, tools used (SET, Metasploit), and practical applications. The depth of analysis demonstrates thorough research and understanding of how different sectors employ these tools for legitimate cybersecurity purposes. The inclusion of specific company names and real-world applications exceeds the assignment requirements.
+
+**ASPECT 2: Uses of Social Engineering tools in real-time scenario with examples (40% weight)**
+**Grade: 10/10 (Advanced)**
+
+**Comment for Aspect 2:**
+The real-time scenario explanation is outstanding, providing a detailed five-phase process (reconnaissance, attack vector design, delivery and execution, exploitation and assessment, reporting and remediation). The financial institution phishing simulation example is particularly well-crafted, showing how SET is used to gather employee information, create convincing fake emails, track employee responses, and generate actionable reports. The step-by-step breakdown demonstrates clear understanding of how these tools function in practice, with specific technical details about credential harvesting and employee training outcomes.
+
+**ASPECT 3: Use of APA Guidelines (20% weight)**
+**Grade: 9/10 (Advanced)**
+
+**Comment for Aspect 3:**
+The paper demonstrates strong adherence to APA guidelines with proper in-text citations and a well-formatted reference list. All sources are correctly cited with author names, dates, and URLs where appropriate. The references include a good mix of academic sources, technical tutorials, and industry publications. Minor formatting inconsistencies in some URL presentations prevent a perfect score, but overall the APA implementation is excellent and supports the academic rigor of the work.
+
+**Overall Feedback:**
+This is an exemplary submission that demonstrates comprehensive understanding of social engineering tools and their organizational applications. The writing is clear, well-organized, and thoroughly researched. The author successfully balances technical depth with practical examples, making complex concepts accessible. The five-category organizational framework and detailed real-time scenario analysis show sophisticated analytical thinking. This work exceeds assignment expectations and would serve as an excellent model for other students.
+
+**Total Score: 29/30 (96.7%)**
+
+=============================================================================
+PEER ASSESSMENT 2: JUAN HERRERA
+=============================================================================
+
+**ASPECT 1: Detailed information on groups/organizations using Social Engineering Tools (40% weight)**
+**Grade: 8/10 (Proficient)**
+
+**Comment for Aspect 1:**
+Juan provides adequate information on organizations using social engineering tools, effectively distinguishing between malicious actors (criminal groups, state-sponsored actors) and defensive users (penetration testers, government agencies like CISA). The discussion includes specific tools like SET and references to industry statistics (91% of cyber-attacks beginning through phishing). However, the analysis could benefit from more specific organizational examples and deeper exploration of how different sectors implement these tools. The coverage is solid but lacks the comprehensive detail seen in top-tier submissions.
+
+**ASPECT 2: Uses of Social Engineering tools in real-time scenario with examples (40% weight)**
+**Grade: 8/10 (Proficient)**
+
+**Comment for Aspect 2:**
+The real-time process explanation is well-structured, covering credential harvesting attacks, phishing processes, and defensive applications. The SET credential harvester example effectively demonstrates how tools clone legitimate websites to capture credentials. The discussion of various attack vectors (smishing, baiting, pretexting) shows good breadth of understanding. The practical training example using SET for organizational phishing simulations is relevant and well-explained. The content adequately addresses the assignment requirements with good technical understanding.
+
+**ASPECT 3: Use of APA Guidelines (20% weight)**
+**Grade: 7/10 (Proficient)**
+
+**Comment for Aspect 3:**
+The paper follows APA guidelines with generally correct in-text citations and reference formatting. The reference list includes appropriate sources from CISA, academic publications, and technical resources. However, there are some formatting inconsistencies in the reference list, and a few citations could be more complete. The overall APA implementation is satisfactory but shows room for improvement in consistency and completeness.
+
+**Overall Feedback:**
+This is a solid submission that demonstrates good understanding of social engineering tools and their applications. Juan effectively balances discussion of both malicious and defensive uses, providing practical context for how these tools operate. The writing is clear and well-organized, with good use of current industry sources. While the analysis could be more comprehensive in some areas, the work meets assignment requirements and shows strong grasp of cybersecurity concepts. The emphasis on both attack and defense perspectives is particularly valuable.
+
+**Total Score: 23/30 (76.7%)**
+
+=============================================================================
+PEER ASSESSMENT 3: CLASSMATE 3 (ANONYMOUS SUBMISSION)
+=============================================================================
+
+**ASPECT 1: Detailed information on groups/organizations using Social Engineering Tools (40% weight)**
+**Grade: 10/10 (Advanced)**
+
+**Comment for Aspect 1:**
+This submission provides exceptionally detailed and well-organized information on organizations using social engineering tools. The three-category framework (defensive security, commercial/for-profit, social/political) is sophisticated and comprehensive. Each category includes specific examples with company names (Bank of America, UnitedHealth Group, Apple, Google), detailed explanations of how tools are used, and specific platforms mentioned (KnowBe4, Proofpoint, GoPhish, Maltego). The commercial applications section creatively connects social engineering principles to marketing psychology using Cialdini's principles, showing advanced analytical thinking. The depth and breadth of coverage significantly exceed assignment expectations.
+
+**ASPECT 2: Uses of Social Engineering tools in real-time scenario with examples (40% weight)**
+**Grade: 10/10 (Advanced)**
+
+**Comment for Aspect 2:**
+The real-time scenario explanation is outstanding, using the "Social Engineering Kill Chain" framework to provide a comprehensive six-phase process. The proactive phishing simulation example is exceptionally detailed, showing specific tools (theHarvester, Maltego, GoPhish), timestamps, and step-by-step actions. The scenario includes realistic details like employee names, click rates (25%), credential submission rates (10%), and immediate training responses. This level of technical detail and practical application demonstrates superior understanding of how these tools function in real organizational environments.
+
+**ASPECT 3: Use of APA Guidelines (20% weight)**
+**Grade: 9/10 (Advanced)**
+
+**Comment for Aspect 3:**
+The paper demonstrates strong adherence to APA guidelines with proper in-text citations throughout and a well-formatted reference list. The sources are diverse and appropriate, including academic texts (Cialdini, Hadnagy, Mitnick), government sources (CDC), and technical resources (SANS Institute, TrustedSec). The formatting is generally consistent and professional. Minor improvements could be made in some citation details, but overall the APA implementation strongly supports the academic quality of the work.
+
+**Overall Feedback:**
+This is an exceptional submission that demonstrates sophisticated understanding of social engineering tools and their multifaceted applications across different organizational contexts. The author's ability to connect technical cybersecurity concepts to broader business and social applications shows advanced analytical thinking. The detailed real-time scenario with specific metrics and technical implementations provides valuable practical insights. The writing is clear, well-organized, and demonstrates extensive research. This work significantly exceeds assignment expectations and provides valuable insights for both cybersecurity professionals and business leaders.
+
+**Total Score: 29/30 (96.7%)**
+
+=============================================================================
+ASSESSMENT SUMMARY
+=============================================================================
+
+**Classmate 1:** 29/30 (96.7%) - Exceptional comprehensive analysis
+**Juan Herrera:** 23/30 (76.7%) - Solid proficient work with good balance
+**Classmate 3:** 29/30 (96.7%) - Outstanding sophisticated framework and analysis
+
+All three submissions demonstrate good understanding of social engineering tools, with Classmates 1 and 3 providing exceptional depth and analysis that significantly exceed assignment requirements. Juan's work is solid and meets all requirements with good practical insights.

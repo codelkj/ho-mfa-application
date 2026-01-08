@@ -1,0 +1,41 @@
+sequenceDiagram
+    participant User
+    participant Browser
+    participant API
+    participant MLRisk
+    participant Auth
+    participant DB
+    participant FIDO2
+    
+    User->>Browser: Enter credentials
+    Browser->>API: POST /auth/login
+    API->>DB: Verify credentials
+    DB-->>API: User found
+    
+    API->>MLRisk: Calculate risk score
+    MLRisk->>DB: Get user history
+    DB-->>MLRisk: Historical data
+    MLRisk->>MLRisk: Analyze 15+ factors
+    MLRisk-->>API: Risk score: 45 (Medium)
+    
+    alt Risk Score < 30 (Low)
+        API-->>Browser: Session token
+    else Risk Score 30-60 (Medium)
+        API-->>Browser: Require 2FA
+        Browser->>User: Request FIDO2 key
+        User->>FIDO2: Insert security key
+        FIDO2->>Browser: Challenge response
+        Browser->>API: POST /auth/fido2/verify
+        API->>DB: Verify credential
+        DB-->>API: Valid
+        API-->>Browser: Session token
+    else Risk Score > 60 (High)
+        API-->>Browser: Require MFA + approval
+        Browser->>User: Multiple factors required
+    end
+    
+    API->>DB: Create session
+    API->>DB: Log audit event
+    DB-->>API: Session created
+    API-->>Browser: Authenticated
+    Browser-->>User: Access granted

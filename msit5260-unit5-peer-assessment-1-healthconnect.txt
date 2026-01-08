@@ -1,0 +1,64 @@
+MSIT 5260-01 - AY2026-T1
+Written Assignment Unit 5 - Peer Assessment Form
+
+Peer Submission: Unit 5: Brain Interfaces - HealthConnect Portal
+Assessor: Johnson Mabgwe
+Date: October 14, 2025
+
+================================================================================
+ASSESSMENT CRITERIA
+================================================================================
+
+ASPECT 1: QUALITY OF WRITING (Weight: 20%)
+Grade: 10/10 (Advanced)
+
+Comment:
+The writing quality is exceptional with no grammatical errors throughout the document. The text is clear, concise, and highly informative with no ambiguity. The author demonstrates strong academic writing skills with well-structured paragraphs that flow logically from brainstorming to design to storyboards. Technical terminology is used appropriately and consistently (e.g., "modular, task-centered layout," "scan ability," "cognitive load"). Transitions between sections are smooth, and the reader has a clear understanding of the design rationale at every stage. The professional tone is maintained throughout, and complex HCI concepts are explained in accessible language. The document meets all formatting requirements with proper headings, figure captions, and organizational structure.
+
+--------------------------------------------------------------------------------
+
+ASPECT 2: CITATIONS OF SOURCES (Weight: 15%)
+Grade: 10/10 (Advanced)
+
+Comment:
+The submission demonstrates excellent citation practices with multiple in-text citations integrated naturally throughout the document. Four credible sources are cited in proper APA format: Allarbarton (2021), Interaction Design Foundation (n.d.), Nielsen (1994), and UXPin (n.d.). In-text citations are used appropriately to support key design decisions and theoretical frameworks (e.g., "supporting the principle that early visualization encourages creative exploration before commitment to high fidelity (Interaction Design Foundation [IDF], n.d.)"). The reference list is formatted correctly in APA 7th edition with no errors in author names, dates, titles, or URLs. The author effectively balances original analysis with cited support, demonstrating scholarly rigor. Nielsen's (1994) heuristics are particularly well-integrated as a theoretical foundation for design decisions.
+
+--------------------------------------------------------------------------------
+
+ASPECT 3: CRITICAL THINKING (BRAINSTORMING PROCESS) (Weight: 30%)
+Grade: 10/10 (Advanced)
+
+Comment:
+The work shows very detailed examples of critical thinking that thoroughly analyze the brainstorming process and design selection. The author clearly articulates the problem identification phase ("forgotten logins, confusing navigation, and redundant confirmation steps") and explains the iterative exploration process using low-fidelity paper sketches. Four specific design goals are identified (Simplicity, Visibility, Consistency, Accessibility) with clear rationale for each. The author demonstrates sophisticated understanding of HCI principles by connecting design decisions to Nielsen's (1994) heuristics and explaining why certain approaches were selected over alternatives. The reflection section provides metacognitive analysis of the design process, discussing how wireframing facilitated early usability testing and how the separation of structure from aesthetics supports scalability. The critical thinking extends beyond description to analysis and evaluation, showing deep engagement with design methodology.
+
+--------------------------------------------------------------------------------
+
+ASPECT 4: OVERALL DESIGN AND STORYBOARDS (Weight: 35%)
+Grade: 10/10 (Advanced)
+
+Comment:
+The overall design and storyboards are exemplary. The submission presents six comprehensive figures showing all critical interface elements: Login/Lock Screen, Dashboard, Book Appointment (Steps 1 & 2), Appointment Detail/Reschedule, and Scenario Storyboard Flow. Each interface element is clearly sketched with appropriate detail, and the function of each component is thoroughly explained. The storyboards effectively illustrate the complete user journey from login through appointment booking to post-booking management. The visual consistency across screens is evident, and the author explains design rationale for each interface (e.g., "dropdown menus and date/time pickers reduce typing errors"). The inclusion of a flow diagram (Figure 6) with solid and dashed arrows showing main workflow and return routes demonstrates sophisticated understanding of user navigation patterns. All concrete use cases are presented in storyboard form with sketches illustrating the interface at all important points in the task, fully meeting the "Advanced" rubric criteria.
+
+================================================================================
+OVERALL FEEDBACK
+================================================================================
+
+This is an outstanding submission that demonstrates mastery of HCI design principles and wireframing methodology. Your HealthConnect Portal design is well-conceived, thoroughly documented, and professionally presented. The brainstorming process is clearly articulated with specific design goals that guide your decisions throughout. Your integration of Nielsen's heuristics as a theoretical framework strengthens the academic rigor of your work.
+
+Particular strengths include:
+• Comprehensive storyboards with six detailed figures covering all critical user interactions
+• Clear explanation of design rationale connecting interface decisions to usability principles
+• Excellent balance of visual elements (wireframes) with textual analysis
+• Professional presentation with proper figure captions and logical organization
+• Strong critical thinking evident in the reflection section discussing scalability and adaptability
+
+Minor suggestions for future work:
+• Consider including a brief discussion of alternative designs that were rejected during brainstorming (you mention "several layout ideas were explored" but don't detail what they were)
+• You might add a section on anticipated usability testing methods to validate your design decisions
+• Consider discussing how the design accommodates different user roles (e.g., nurses vs. administrators) if applicable
+
+Your work sets a high standard for interface design documentation and demonstrates exceptional understanding of user-centered design methodology. The HealthConnect Portal is a practical, well-thought-out solution to real healthcare scheduling challenges. Excellent work!
+
+Total Score: 40/40 (100%)
+
+================================================================================

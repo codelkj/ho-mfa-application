@@ -1,0 +1,84 @@
+MSIT 5270-01 - AY2026-T1
+Written Assignment Unit 5
+Peer Assessment Form
+
+PEER 2 ASSESSMENT
+Submission Title: "Penetration Testing and Wireshark: An Analytical Examination"
+Assessed by: Johnson Mabgwe
+Date: October 14, 2025
+
+================================================================================
+ASSESSMENT CRITERIA AND GRADES
+================================================================================
+
+ASPECT 1: What is penetration testing?
+Weight: 15%
+Grade: 10 (Advanced)
+
+Comment for Aspect 1:
+Exceptional definition with critical distinction from vulnerability scanning: "Unlike a vulnerability scan...penetration test involves manual, human-driven process that attempts to exploit vulnerabilities to determine actual risk." Your explanation of both external and internal testing perspectives demonstrates comprehensive understanding. Well-cited with Engebretson (2013).
+
+--------------------------------------------------------------------------------
+
+ASPECT 2: What activities need to be performed to execute the Penetration Test?
+Weight: 15%
+Grade: 10 (Advanced)
+
+Comment for Aspect 2:
+Exemplary explanation distinguishing passive vs. active reconnaissance, static vs. dynamic analysis, and including specific tools (Nmap, Nessus). Your discussion of Advanced Persistent Threats (APT) in the Maintaining Access phase demonstrates sophisticated cybersecurity knowledge. The comprehensive reporting section with remediation recommendations is excellent. Well-supported by Oriyano (2014).
+
+--------------------------------------------------------------------------------
+
+ASPECT 3: Explained the core features of Wireshark
+Weight: 20%
+Grade: 10 (Advanced - Detailed explanation)
+
+Comment for Aspect 3:
+Outstanding coverage of five features: Deep Inspection, Live Capture, Powerful Display Filters, VoIP Analysis, and Export Capabilities. Your integration of features with penetration testing phases (Reconnaissance, Scanning, Exploitation, Post-Exploitation) and specific examples (Traffic Analysis, Credential Harvesting, MitM Attacks) demonstrates mastery-level understanding of practical application.
+
+--------------------------------------------------------------------------------
+
+ASPECT 4: Examined all the panes in Wireshark
+Weight: 20%
+Grade: 10 (Advanced - Detailed explanation)
+
+Comment for Aspect 4:
+Exceptional detail on all three panes with clear explanation of hierarchical protocol breakdown in the middle pane and hex/ASCII representation in the bottom pane. Your explanation demonstrates understanding of how analysts use each pane for different analytical purposes, not just what they display.
+
+--------------------------------------------------------------------------------
+
+ASPECT 5: Explained the main filters in Wireshark
+Weight: 20%
+Grade: 10 (Advanced - Detailed explanation)
+
+Comment for Aspect 5:
+Exemplary explanation with Berkeley Packet Filter (BPF) syntax mention and progression from simple to complex filters. Excellent examples: "tcp.port == 443 && ip.src == 10.0.0.5" (combination), "http.request.uri contains 'login'" (content), and "tcp.flags.syn == 1 && tcp.flags.ack == 0" (TCP handshake analysis). Demonstrates mastery of both technical implementation and practical application.
+
+--------------------------------------------------------------------------------
+
+ASPECT 6: Use of APA Guidelines
+Weight: 10%
+Grade: 10 (Advanced - No errors in formatting)
+
+Comment for Aspect 6:
+Perfect APA compliance! Flawless in-text citations, properly formatted reference list following APA 7th edition, credible peer-reviewed sources, and professional abstract. Your paper structure with clear headings enhances readability. Sets the standard for academic writing in cybersecurity coursework.
+
+================================================================================
+OVERALL FEEDBACK
+================================================================================
+
+Total Score: 60/60 (100%)
+
+Feedback for the Author:
+
+Exceptional paper representing the highest standard of academic and technical writing in cybersecurity. Your work demonstrates mastery of subject matter and professional communication skills.
+
+**Outstanding Strengths:** Professional abstract establishing academic tone, comprehensive coverage with exceptional depth, advanced technical knowledge (APT discussion, BPF syntax), brilliant integration of Wireshark features with penetration testing phases, most comprehensive filter examples among all submissions, sophisticated writing with perfect grammar, and flawless APA compliance.
+
+**Minor Suggestions:** Consider adding Wireshark interface screenshots for visual enhancement, include a brief real-world case study, and incorporate 3-4 additional recent sources (2023-2025) for even broader coverage.
+
+This paper is exemplary in every aspect and sets the standard for excellence. Outstanding work demonstrating analytical and communication skills essential for cybersecurity careers!
+
+================================================================================
+END OF ASSESSMENT
+================================================================================

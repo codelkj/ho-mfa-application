@@ -1,0 +1,84 @@
+MSIT 5270-01 - AY2026-T1
+Written Assignment Unit 5
+Peer Assessment Form
+
+PEER 1 ASSESSMENT
+Submission Title: "Written Assignment Unit 5" (Penetration Testing and Wireshark)
+Assessed by: Johnson Mabgwe
+Date: October 14, 2025
+
+================================================================================
+ASSESSMENT CRITERIA AND GRADES
+================================================================================
+
+ASPECT 1: What is penetration testing?
+Weight: 15%
+Grade: 10 (Advanced)
+
+Comment for Aspect 1:
+Excellent definition! You clearly explained penetration testing as "authorized and controlled" ethical hacking that provides "actionable intelligence about security posture." Your distinction from malicious hacking and emphasis on assessing defense effectiveness demonstrates sophisticated understanding. The NIST citation (Scarfone et al., 2008) provides authoritative support.
+
+--------------------------------------------------------------------------------
+
+ASPECT 2: What activities need to be performed to execute the Penetration Test?
+Weight: 15%
+Grade: 10 (Advanced)
+
+Comment for Aspect 2:
+Outstanding coverage of all five phases: Planning/Reconnaissance, Scanning, Exploitation, Post-Exploitation, and Reporting. Each phase is clearly explained with appropriate technical detail. Your conclusion that "This systematic approach ensures thorough testing with actionable outcomes" effectively ties the methodology together. Well-cited with Kaur & Singh (2021).
+
+--------------------------------------------------------------------------------
+
+ASPECT 3: Explained the core features of Wireshark
+Weight: 20%
+Grade: 10 (Advanced - Detailed explanation)
+
+Comment for Aspect 3:
+Comprehensive explanation of five key features: Packet Capture, Protocol Analysis, Filtering, Colour Coding, and Statistics Tools. You effectively connected features to practical application: "indispensable for identifying anomalies and validating penetration testing results." Demonstrates strong understanding of Wireshark's capabilities.
+
+--------------------------------------------------------------------------------
+
+ASPECT 4: Examined all the panes in Wireshark
+Weight: 20%
+Grade: 10 (Advanced - Detailed explanation)
+
+Comment for Aspect 4:
+Thorough examination of all three panes with clear descriptions of what each displays. Your conclusion that panes "provide a structured and detailed view from summary to granular packet-level analysis" shows excellent understanding of the interface architecture and how components work together.
+
+--------------------------------------------------------------------------------
+
+ASPECT 5: Explained the main filters in Wireshark
+Weight: 20%
+Grade: 10 (Advanced - Detailed explanation)
+
+Comment for Aspect 5:
+Excellent distinction between Capture Filters (applied before collection) and Display Filters (applied after capture) with practical examples for each. Your explanation of why filters are "essential for focusing on relevant traffic and avoiding overwhelming data" demonstrates practical understanding of real-world penetration testing challenges.
+
+--------------------------------------------------------------------------------
+
+ASPECT 6: Use of APA Guidelines
+Weight: 10%
+Grade: 8 (Proficient - Slight errors in formatting)
+
+Comment for Aspect 6:
+Good APA compliance with proper in-text citations and three credible sources. Minor improvements needed: (1) Add retrieval date for Mamilla (2021) online source, (2) Include full NIST Special Publication format for Scarfone et al. (2008), (3) Ensure consistent formatting across all references.
+
+================================================================================
+OVERALL FEEDBACK
+================================================================================
+
+Total Score: 58/60 (96.67%)
+
+Feedback for the Author:
+
+Excellent paper demonstrating comprehensive understanding of penetration testing and Wireshark. Your clear structure, technical accuracy, and professional writing make complex concepts accessible. All five questions are thoroughly addressed with appropriate depth.
+
+**Key Strengths:** Comprehensive coverage of all topics, clear logical flow with distinct sections, accurate technical information (especially the five penetration testing phases), consistent connection of theory to practice, and professional error-free writing.
+
+**Minor Improvements:** Add retrieval dates and complete NIST formatting for perfect APA compliance. Consider adding a Wireshark interface screenshot to visually illustrate the three-pane structure. Include more complex filter examples combining multiple conditions.
+
+Outstanding work that demonstrates mastery of cybersecurity concepts with clear, professional presentation!
+
+================================================================================
+END OF ASSESSMENT
+================================================================================

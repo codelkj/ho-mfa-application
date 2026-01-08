@@ -1,0 +1,17 @@
+graph LR
+    subgraph "Optimization Pipeline"
+    A[Baseline Model<br/>(e.g., MusicGen/Suno-like)] --> B[Phase 1:<br/>Model Compression]
+    B --> C[Phase 2:<br/>Quantization]
+    C --> D[Phase 3:<br/>Sparse Inference]
+    D --> E[Phase 4:<br/>Efficient Attention]
+    E --> F[Phase 5:<br/>Distributed Inference]
+    F --> G[Optimized<br/>Real-Time Model]
+    end
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style G fill:#bfb,stroke:#333,stroke-width:2px
+    style B fill:#fff,stroke:#333
+    style C fill:#fff,stroke:#333
+    style D fill:#fff,stroke:#333
+    style E fill:#fff,stroke:#333
+    style F fill:#fff,stroke:#333

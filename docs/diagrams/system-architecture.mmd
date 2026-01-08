@@ -1,0 +1,81 @@
+graph TB
+    subgraph "Client Layer"
+        WebApp[Web Application<br/>Next.js 14]
+        MobileApp[Mobile App<br/>React Native]
+        Desktop[Desktop Client<br/>Electron]
+    end
+    
+    subgraph "API Gateway Layer"
+        Gateway[Next.js API Routes<br/>Route Handlers]
+        Middleware[Authentication Middleware<br/>Token Validation]
+    end
+    
+    subgraph "Authentication Services"
+        AuthService[Auth Service<br/>Supabase Auth]
+        FIDO2[FIDO2/WebAuthn<br/>Hardware Keys]
+        Biometric[Biometric Verification<br/>Platform Authenticators]
+        MobilePush[Mobile Push<br/>FCM/APNs]
+    end
+    
+    subgraph "Security Services"
+        MLRisk[ML Risk Scoring<br/>Real-time Analysis]
+        BreakGlass[Break-Glass Protocol<br/>Emergency Access]
+        Audit[Audit Service<br/>Compliance Logging]
+        RLS[Row-Level Security<br/>Multi-tenant Isolation]
+    end
+    
+    subgraph "Integration Layer"
+        EHRIntegration[EHR Integration<br/>FHIR Client]
+        Epic[Epic Systems<br/>FHIR R4]
+        Cerner[Cerner<br/>FHIR R4]
+        Allscripts[Allscripts<br/>FHIR R4]
+    end
+    
+    subgraph "Data Layer"
+        PostgreSQL[(PostgreSQL<br/>Supabase)]
+        Redis[(Redis Cache<br/>Session Store)]
+        Blob[(Blob Storage<br/>Audit Logs)]
+    end
+    
+    subgraph "External Services"
+        FCM[Firebase Cloud<br/>Messaging]
+        APNS[Apple Push<br/>Notification]
+        Geolocation[IP Geolocation<br/>MaxMind]
+    end
+    
+    WebApp --> Gateway
+    MobileApp --> Gateway
+    Desktop --> Gateway
+    
+    Gateway --> Middleware
+    Middleware --> AuthService
+    
+    AuthService --> FIDO2
+    AuthService --> Biometric
+    AuthService --> MobilePush
+    
+    Middleware --> MLRisk
+    Middleware --> BreakGlass
+    Middleware --> Audit
+    
+    Gateway --> EHRIntegration
+    EHRIntegration --> Epic
+    EHRIntegration --> Cerner
+    EHRIntegration --> Allscripts
+    
+    AuthService --> PostgreSQL
+    MLRisk --> PostgreSQL
+    BreakGlass --> PostgreSQL
+    Audit --> PostgreSQL
+    RLS --> PostgreSQL
+    
+    AuthService --> Redis
+    MLRisk --> Redis
+    
+    Audit --> Blob
+    
+    MobilePush --> FCM
+    MobilePush --> APNS
+    MLRisk --> Geolocation
+    
+    PostgreSQL -.->|RLS Policies| RLS

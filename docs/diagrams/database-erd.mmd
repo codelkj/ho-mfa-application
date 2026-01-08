@@ -1,0 +1,197 @@
+erDiagram
+    organizations ||--o{ profiles : "employs"
+    organizations ||--o{ feature_flags : "configures"
+    organizations ||--o{ ehr_integrations : "connects"
+    profiles ||--o{ auth_sessions : "creates"
+    profiles ||--o{ auth_audit_logs : "generates"
+    profiles ||--o{ fido2_credentials : "registers"
+    profiles ||--o{ biometric_enrollments : "enrolls"
+    profiles ||--o{ mobile_sessions : "establishes"
+    profiles ||--o{ break_glass_logs : "initiates"
+    profiles ||--o{ risk_contexts : "builds"
+    auth_sessions ||--o{ ml_training_data : "provides"
+    ehr_integrations ||--o{ ehr_auth_events : "logs"
+    mobile_sessions ||--o{ push_notifications : "receives"
+    
+    organizations {
+        uuid id PK
+        text name
+        text domain
+        jsonb settings
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    profiles {
+        uuid id PK
+        uuid organization_id FK
+        text email
+        text full_name
+        text role
+        text employee_id
+        text department
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    auth_sessions {
+        uuid id PK
+        uuid user_id FK
+        uuid organization_id FK
+        text session_token
+        text auth_method
+        inet ip_address
+        text user_agent
+        text location
+        text device_id
+        numeric risk_score
+        boolean is_active
+        timestamp started_at
+        timestamp expires_at
+        timestamp ended_at
+    }
+    
+    fido2_credentials {
+        uuid id PK
+        uuid user_id FK
+        text credential_id
+        text public_key
+        integer counter
+        text device_type
+        text device_name
+        text[] transports
+        boolean is_active
+        timestamp created_at
+        timestamp last_used_at
+    }
+    
+    biometric_enrollments {
+        uuid id PK
+        uuid user_id FK
+        text biometric_type
+        text device_id
+        text embedding_hash
+        text model_version
+        boolean is_active
+        timestamp enrolled_at
+        timestamp last_verified_at
+    }
+    
+    mobile_sessions {
+        uuid id PK
+        uuid user_id FK
+        text device_token
+        text push_token
+        text platform
+        text app_version
+        jsonb device_info
+        boolean biometric_enabled
+        boolean is_active
+        timestamp created_at
+        timestamp last_active_at
+    }
+    
+    feature_flags {
+        uuid id PK
+        uuid organization_id FK
+        text feature_key
+        boolean is_enabled
+        integer rollout_percentage
+        jsonb config
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    break_glass_logs {
+        uuid id PK
+        uuid user_id FK
+        uuid organization_id FK
+        text patient_id
+        text emergency_type
+        text reason
+        text[] accessed_records
+        uuid supervisor_id FK
+        boolean supervisor_notified
+        uuid witness_id FK
+        uuid reviewed_by FK
+        inet ip_address
+        text location
+        text device_id
+        timestamp accessed_at
+        timestamp reviewed_at
+    }
+    
+    ehr_integrations {
+        uuid id PK
+        uuid organization_id FK
+        text ehr_system
+        text fhir_base_url
+        text client_id
+        text auth_type
+        jsonb config
+        boolean is_active
+        timestamp created_at
+        timestamp last_sync_at
+    }
+    
+    ehr_auth_events {
+        uuid id PK
+        uuid user_id FK
+        uuid ehr_integration_id FK
+        text event_type
+        text resource_type
+        text patient_id
+        integer response_status
+        timestamp created_at
+    }
+    
+    risk_contexts {
+        uuid id PK
+        uuid user_id FK
+        text context_type
+        jsonb context_value
+        jsonb feature_vector
+        numeric trust_score
+        numeric ml_confidence_score
+        text ml_model_version
+        boolean is_trusted
+        timestamp created_at
+        timestamp last_seen_at
+    }
+    
+    ml_training_data {
+        uuid id PK
+        uuid user_id FK
+        uuid session_id FK
+        jsonb features
+        numeric predicted_risk_score
+        text actual_risk_level
+        boolean was_anomaly
+        timestamp created_at
+    }
+    
+    push_notifications {
+        uuid id PK
+        uuid mobile_session_id FK
+        text notification_type
+        text title
+        text body
+        jsonb data
+        text status
+        timestamp created_at
+        timestamp sent_at
+        timestamp expires_at
+    }
+    
+    auth_audit_logs {
+        uuid id PK
+        uuid user_id FK
+        text event_type
+        text auth_method
+        inet ip_address
+        text user_agent
+        text device_id
+        text location
+        jsonb metadata
+        timestamp created_at
+    }

@@ -1,0 +1,84 @@
+MSIT 5270-01 - AY2026-T1
+Written Assignment Unit 5
+Peer Assessment Form
+
+PEER 3 ASSESSMENT
+Submission Title: "Using Wireshark: A Practical Guide to Penetration Testing and Network Analysis"
+Assessed by: Johnson Mabgwe
+Date: October 14, 2025
+
+================================================================================
+ASSESSMENT CRITERIA AND GRADES
+================================================================================
+
+ASPECT 1: What is penetration testing?
+Weight: 15%
+Grade: 10 (Advanced)
+
+Comment for Aspect 1:
+Excellent contextual definition: "structured security assessment...to expose vulnerabilities before threat actors can exploit them." Your immediate connection to modern cybersecurity practice and complete five-phase framework demonstrates comprehensive understanding. The practical focus linking penetration testing to Wireshark's reconnaissance and exploitation capabilities is particularly strong. Well-cited with phoenixNAP (2025).
+
+--------------------------------------------------------------------------------
+
+ASPECT 2: What activities need to be performed to execute the Penetration Test?
+Weight: 15%
+Grade: 10 (Advanced)
+
+Comment for Aspect 2:
+Outstanding five-phase framework with clear, action-oriented descriptions. Your integration of Wireshark's role in specific phases ("particularly powerful in reconnaissance and exploitation phases") and elaboration on practical activities (Real-time Packet Capture, Protocol Dissection, Deep Payload Analysis) demonstrates sophisticated understanding of tool-phase alignment. Well-supported by VirtualizationHowto (2025).
+
+--------------------------------------------------------------------------------
+
+ASPECT 3: Explained the core features of Wireshark
+Weight: 20%
+Grade: 10 (Advanced - Detailed explanation)
+
+Comment for Aspect 3:
+Excellent explanation of four critical capabilities with strong practical context. Your statement that features "enable analysts to spot anomalies, detect malicious traffic, and validate protocol usage" demonstrates understanding of real-world security applications. Figure 1 (live capture screenshot) visually reinforces your explanation and shows hands-on experience. The TCP port 443 analysis further illustrates practical feature application.
+
+--------------------------------------------------------------------------------
+
+ASPECT 4: Examined all the panes in Wireshark
+Weight: 20%
+Grade: 10 (Advanced - Detailed explanation)
+
+Comment for Aspect 4:
+Outstanding examination with comprehensive technical detail on all three panes. Figure 1 visually demonstrates the interface in action, significantly enhancing understanding. Your explanation of how analysts use each pane for threat detection ("spotting unexpected ICMPv6 messages or unusual TCP behavior") shows practical security analysis knowledge. The combination of detailed description, visual documentation, and practical examples is exemplary.
+
+--------------------------------------------------------------------------------
+
+ASPECT 5: Explained the main filters in Wireshark
+Weight: 20%
+Grade: 10 (Advanced - Detailed explanation)
+
+Comment for Aspect 5:
+Exceptional coverage distinguishing Capture Filters (before collection) and Display Filters (after capture) with clear practical examples. Your dedicated TCP port 443 analysis section explaining HTTPS tunnel exploitation risks demonstrates sophisticated security understanding. Figure 2 provides step-by-step visual guide for creating filters. The integration of filter theory, practical examples, visual documentation, and security context is masterful.
+
+--------------------------------------------------------------------------------
+
+ASPECT 6: Use of APA Guidelines
+Weight: 10%
+Grade: 8 (Proficient - Slight errors in formatting)
+
+Comment for Aspect 6:
+Good APA compliance with six credible current sources (2024-2025). Minor improvements needed: (1) Ensure consistency between in-text citations and reference list (phoenixNAP vs. Kaplarevic), (2) Format website citations consistently with author names or organization names, (3) Distinguish Wireshark Foundation n.d. and 2025 sources more clearly, (4) Maintain consistent citation style throughout.
+
+================================================================================
+OVERALL FEEDBACK
+================================================================================
+
+Total Score: 58/60 (96.67%)
+
+Feedback for the Author:
+
+Excellent paper with exceptional visual communication skills. Your practical tutorial-style approach makes complex cybersecurity concepts accessible and immediately applicable.
+
+**Outstanding Strengths:** Two figures (live capture showing three panes; port 443 filter creation) significantly enhance understanding and demonstrate hands-on experience—major distinguishing strength. Practical, actionable information readers can immediately apply. Comprehensive coverage of all five questions with appropriate technical detail. Advanced security context with TCP port 443 analysis explaining HTTPS tunnel exploitation. Six current sources (2024-2025) including cutting-edge arXiv research. Clear, professional writing with effective technical terminology.
+
+**Minor Improvements:** Ensure APA consistency between in-text citations and reference list entries. Expand figure captions with more technical detail. Add complex combination filter examples for advanced readers.
+
+Outstanding work demonstrating technical mastery and excellent communication skills. Your visual documentation and practical focus make this genuinely useful for learning Wireshark security analysis!
+
+================================================================================
+END OF ASSESSMENT
+================================================================================

@@ -1,0 +1,36 @@
+flowchart TD
+    Start([User needs emergency access]) --> CheckAuth{Normal authentication<br/>possible?}
+    CheckAuth -->|Yes| NormalFlow[Use standard login]
+    CheckAuth -->|No| EmergencyButton[Click 'Emergency Access']
+    
+    EmergencyButton --> ShowForm[Display justification form]
+    ShowForm --> UserInput[User enters:<br/>- Emergency type<br/>- Patient ID<br/>- Reason<br/>- Witness]
+    
+    UserInput --> ValidateInput{Input valid?<br/>Min 20 characters}
+    ValidateInput -->|No| ShowForm
+    ValidateInput -->|Yes| CreateSession[Create emergency session<br/>60-minute TTL]
+    
+    CreateSession --> LogEvent[Log break-glass event]
+    LogEvent --> NotifySupervisor[Send real-time notification<br/>to supervisor]
+    NotifySupervisor --> NotifySecurity[Alert security team]
+    NotifySecurity --> GrantAccess[Grant limited access]
+    
+    GrantAccess --> UserActions[User accesses records<br/>All actions tagged with<br/>break_glass_session_id]
+    UserActions --> SessionExpire{Session expired<br/>or ended?}
+    
+    SessionExpire -->|Continue| UserActions
+    SessionExpire -->|Yes| CreateTicket[Auto-create review ticket]
+    
+    CreateTicket --> SecurityReview[Security team reviews<br/>within 24 hours]
+    SecurityReview --> ReviewDecision{Legitimate<br/>emergency?}
+    
+    ReviewDecision -->|Yes| Approve[Mark as approved<br/>Close ticket]
+    ReviewDecision -->|No| Investigate[Flag violation<br/>Disciplinary action]
+    
+    NormalFlow --> End([Access granted])
+    Approve --> End
+    Investigate --> End
+    
+    style EmergencyButton fill:#ff6b6b
+    style GrantAccess fill:#51cf66
+    style Investigate fill:#ff922b

@@ -1,0 +1,66 @@
+MSIT 5270-01 - AY2026-T1
+Portfolio Activity Unit 5: Capstone Project Proposal Draft
+Johnson Mabgwe
+University of the People
+
+================================================================================
+CAPSTONE PROJECT PROPOSAL DRAFT
+================================================================================
+
+PROJECT TITLE: Healthcare-Optimized Multi-Factor Authentication (HO-MFA) Framework
+
+1. PROBLEM STATEMENT
+
+Healthcare organizations face escalating cybersecurity threats targeting electronic protected health information (ePHI), with the healthcare sector experiencing 1,463 data breaches affecting over 385 million patient records between 2020–2024, representing a 256% increase from the previous five-year period (HHS Office for Civil Rights, 2024). The 2025 HIPAA Security Rule updates mandate multi-factor authentication (MFA) for all systems accessing ePHI, yet many healthcare providers struggle with implementing MFA solutions that balance robust security with clinical workflow efficiency (MetricStream, 2025). Legacy healthcare systems, including electronic health record (EHR) platforms, medical imaging systems, and clinical decision support tools, often lack native MFA capabilities, creating significant compliance gaps and security vulnerabilities. In my role as Healthcare IT Security Analyst at Regional Medical Center, I have observed that clinicians frequently resist MFA implementations that add friction to patient care workflows, leading to workarounds that undermine security controls. Current MFA solutions designed for general enterprise environments fail to address healthcare-specific requirements such as emergency access protocols for life-threatening situations, shared workstation authentication in clinical settings, and integration with existing single sign-on (SSO) infrastructure. This gap between regulatory mandates, security requirements, and clinical operational realities creates an urgent need for a healthcare-optimized MFA framework that ensures HIPAA compliance while maintaining the rapid access to patient information essential for quality care delivery.
+
+2. OVERVIEW OF SOLUTION
+
+This capstone project will design and implement a comprehensive Healthcare-Optimized Multi-Factor Authentication (HO-MFA) Framework specifically tailored for clinical environments that balances stringent security requirements with operational efficiency. The solution will integrate adaptive authentication mechanisms that adjust security requirements based on contextual factors including user role, location, device trust level, data sensitivity, and clinical urgency (Happiest Minds, 2025). The framework will incorporate biometric authentication options such as fingerprint and facial recognition optimized for clinical settings where hands-free operation is essential, hardware token integration for high-privilege administrative access, and mobile push notifications for rapid authentication approval. A critical innovation will be the implementation of an emergency access protocol that enables immediate ePHI access during life-threatening situations while creating comprehensive audit trails and triggering automatic security reviews, addressing the unique healthcare requirement for "break-glass" access (MetricStream, 2025). The solution will provide seamless integration with existing healthcare IT infrastructure including Epic, Cerner, and Meditech EHR systems, Active Directory and LDAP authentication services, and SAML-based SSO platforms. The framework will incorporate real-time monitoring dashboards displaying authentication success rates, failed login attempts, emergency access usage, and compliance metrics aligned with 2025 HIPAA requirements.
+
+3. SPECIFIC LEARNING OBJECTIVES AND MSIT PROGRAM LEARNING OUTCOMES ALIGNMENT
+
+This capstone project directly addresses all five MSIT Program Learning Outcomes through comprehensive integration of technical, analytical, and ethical competencies:
+
+PLO 1: Apply the principles of information technology, computer science and other disciplines to the analysis of complex computing problems.
+
+The project applies cryptographic principles from MSIT 5210 (Cryptography and Network Security) to implement secure authentication token generation and transmission, database design concepts from MSIT 5100 (Database Systems) to architect audit logging infrastructure, and systems analysis methodologies from MSIT 5200 (Systems Analysis and Design) to conduct comprehensive user needs assessment in clinical environments. The adaptive risk scoring algorithm integrates machine learning concepts to analyze contextual authentication factors and adjust security requirements dynamically.
+
+PLO 2: Design and evaluate solutions to complex computing problems using industry-recognized best practices and standards.
+
+The HO-MFA framework design adheres to NIST SP 800-63B Digital Identity Guidelines for authentication assurance levels, implements SAML 2.0 and OAuth 2.0 protocols for enterprise SSO integration, and follows OWASP Authentication Cheat Sheet recommendations for secure credential handling. The solution architecture incorporates Zero Trust security principles and defense-in-depth strategies, with comprehensive evaluation through penetration testing, usability studies measuring Mean Time to Authenticate (MTTA), and compliance validation against 2025 HIPAA Security Rule requirements.
+
+PLO 3: Analyze user needs in the development and implementation of computing-based solutions.
+
+The project employs contextual inquiry methodologies to observe clinical staff authentication workflows, conducts semi-structured interviews with physicians, nurses, and administrative personnel to identify pain points in existing authentication systems, and performs time-motion studies to quantify the impact of MFA on clinical efficiency. User persona development captures the diverse needs of emergency department clinicians requiring rapid access, administrative staff managing sensitive financial data, and IT security personnel monitoring authentication events. Usability testing with frontline healthcare workers validates that the solution maintains clinical workflow efficiency while enhancing security.
+
+PLO 4: Assess the ethical considerations in the development, implementation, evaluation, and management of IT systems.
+
+The project addresses critical ethical considerations including patient safety implications of authentication delays during medical emergencies, privacy protection through comprehensive audit trails for all ePHI access, transparency in emergency "break-glass" access protocols that balance immediate care needs with security accountability, and equity in authentication method selection to accommodate users with disabilities or varying technical proficiency. The solution incorporates ethical frameworks from MSIT 5400 (IT Ethics and Social Responsibility) to evaluate trade-offs between security controls and clinical operational requirements.
+
+PLO 5: Construct clear, well-organized arguments supported by credible research-based evidence.
+
+The capstone documentation integrates peer-reviewed cybersecurity research, HIPAA regulatory guidance, healthcare IT industry reports, and NIST technical publications to support design decisions. The implementation report presents quantitative metrics including authentication success rates, failed login attempt patterns, and emergency access frequency alongside qualitative findings from clinical staff interviews. The final reflection synthesizes lessons learned across the MSIT curriculum and demonstrates how theoretical knowledge from coursework translates into practical healthcare IT security solutions.
+
+================================================================================
+REFERENCES
+================================================================================
+
+Happiest Minds. (2025). Adaptive authentication: The future of secure access. 
+     https://www.happiestminds.com/insights/adaptive-authentication/
+
+HHS Office for Civil Rights. (2024). Breach portal: Notice to the Secretary of 
+     HHS breach of unsecured protected health information. U.S. Department of 
+     Health and Human Services. https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf
+
+MetricStream. (2025). HIPAA 2025: Key updates and compliance requirements. 
+     https://www.metricstream.com/insights/hipaa-2025-updates.htm
+
+National Institute of Standards and Technology. (2017). Digital identity 
+     guidelines: Authentication and lifecycle management (NIST Special 
+     Publication 800-63B). U.S. Department of Commerce. 
+     https://doi.org/10.6028/NIST.SP.800-63b
+
+================================================================================
+END OF CAPSTONE PROJECT PROPOSAL DRAFT
+Word Count: 687 words (excluding references)
+================================================================================

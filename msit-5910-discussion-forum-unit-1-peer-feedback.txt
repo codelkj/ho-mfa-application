@@ -1,0 +1,14 @@
+Peer 1 Response: Muhammad Hasanat
+Rating: 10/10
+Comment:
+Your response provides an excellent and comprehensive analysis of the problem statement's role in capstone projects, particularly your detailed breakdown of structured frameworks like Gap Analysis and the 5 Ws. I appreciate how you connected the preliminary investigation to practical outcomes like saving time and resources, which is crucial for project management. Your inclusion of the Einstein quote effectively frames the importance of problem definition, and your references are well-integrated to support your arguments about relevance and methodology.
+
+Peer 2 Response: Abdulkadir Adem Mohammed
+Rating: 9/10
+Comment:
+You have crafted a strong and well-structured response that clearly defines the components of a problem statement and the necessity of literature reviews. Your section on making the problem statement relevant by integrating current trends and engaging stakeholders is particularly insightful for IT projects. To enhance your discussion on tools, you might consider elaborating on how specific tools like SWOT analysis directly feed into the refinement of the problem statement itself, rather than just identifying the problem.
+
+Peer 3 Response: Rithysak Sorn
+Rating: 8/10
+Comment:
+Your post offers a clear and accessible explanation of the problem statement and the value of preliminary investigations. I particularly liked your point about how connecting issues to current events like digital transformation makes the problem more urgent and realistic. To strengthen your response further, you could provide more specific examples of how tools like user story mapping or process modeling have been applied in recent IT projects to identify gaps, which would add more depth to your analysis of the tools.

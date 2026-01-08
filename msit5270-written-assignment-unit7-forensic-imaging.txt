@@ -1,0 +1,80 @@
+MSIT 5270-01 - AY2026-T1
+Written Assignment Unit 7: Forensic Imaging
+
+Student: Johnson Mabgwe
+Course: MSIT 5270-01 Foundations of Cybersecurity
+Unit: 7
+Date: October 21, 2025
+
+================================================================================
+FORENSIC IMAGING: PRINCIPLES, IMPORTANCE, AND METHODOLOGY
+================================================================================
+
+What is Forensic Imaging?
+
+Forensic imaging, also known as disk imaging or evidence acquisition, is the process of creating an exact, bit-by-bit copy of digital storage media that preserves all data in its original, unaltered state for forensic analysis (Einitial24, 2025). Unlike standard file copying, which transfers only active files and folders, forensic imaging captures the complete contents of storage devices, including active files, deleted files, unallocated space, slack space, system files, hidden partitions, and file system metadata (ExamCollection, 2025). This comprehensive replication ensures that forensic investigators can analyze digital evidence without risking contamination or modification of the original source media, maintaining the integrity and admissibility of evidence in legal proceedings.
+
+The forensic imaging process employs specialized tools and methodologies to create forensically sound copies that are identical to the source media at the binary level. These images are typically stored in standardized formats such as RAW (dd), Expert Witness Format (E01), or Advanced Forensic Format (AFF), each offering different features regarding compression, metadata storage, and error correction (Einitial24, 2025). Critically, forensic imaging incorporates cryptographic hashing algorithms—typically MD5, SHA-1, or SHA-256—to generate unique digital fingerprints of both the source media and the forensic image, enabling verification that the image is an exact replica and has not been altered during acquisition or analysis (ExamCollection, 2025).
+
+In my role as a Healthcare IT Security Analyst, I have utilized forensic imaging during incident response investigations involving suspected data breaches and insider threat cases. The ability to create forensically sound images of workstations, servers, and mobile devices while maintaining HIPAA compliance and chain of custody requirements has been essential for both internal investigations and potential legal proceedings.
+
+The Importance of Forensic Imaging
+
+Forensic imaging serves as the foundational cornerstone of digital forensic investigations, providing multiple critical benefits that ensure the integrity, reliability, and legal admissibility of digital evidence. First and foremost, forensic imaging preserves the original evidence in its pristine state by enabling all analysis to be conducted on copies rather than original media (Webasha, 2025). This preservation is paramount in legal contexts, where any modification to original evidence—even inadvertent changes caused by mounting a drive or opening files—can render evidence inadmissible in court and compromise entire investigations.
+
+Second, forensic imaging enables comprehensive data recovery and analysis that extends far beyond what is visible through standard operating system interfaces. Deleted files, which remain recoverable in unallocated space until overwritten, often contain critical evidence in criminal investigations, civil litigation, and internal corporate inquiries (Einitial24, 2025). File system artifacts such as journal entries, metadata, and slack space provide temporal context and behavioral patterns that illuminate user activities, system events, and potential security incidents. In healthcare environments, this capability is particularly valuable for investigating potential HIPAA violations, where deleted patient records or audit log manipulations may constitute evidence of unauthorized access or data exfiltration.
+
+Third, forensic imaging establishes and maintains an unbroken chain of custody—a documented chronological record of evidence handling that is essential for legal admissibility (ExamCollection, 2025). By creating cryptographically verified copies with documented hash values, timestamps, acquisition tools, and examiner credentials, forensic imaging provides irrefutable proof that evidence has not been tampered with from acquisition through analysis and presentation in legal proceedings. This chain of custody documentation is critical in both criminal prosecutions and civil litigation, where opposing counsel will scrutinize evidence handling procedures to identify potential contamination or manipulation.
+
+Fourth, forensic imaging enables parallel analysis by multiple investigators and preserves evidence for future examination using advanced techniques that may not be available at the time of initial acquisition (Webasha, 2025). As forensic methodologies and tools evolve, having pristine forensic images allows investigators to re-analyze evidence using new techniques without requiring access to original devices, which may have been returned to owners, destroyed, or become unavailable. In my professional experience, this capability has proven invaluable when new threat intelligence or investigative leads emerge months after initial incident response activities, allowing our team to re-examine forensic images with fresh perspectives and updated analytical tools.
+
+Finally, forensic imaging supports compliance with regulatory requirements and industry standards in sectors such as healthcare (HIPAA), finance (SOX, PCI-DSS), and government (FISMA, NIST frameworks). These regulations often mandate specific evidence preservation and incident response capabilities, making forensic imaging an essential component of organizational cybersecurity programs.
+
+Detailed Illustration of Forensic Imaging Using FTK Imager
+
+FTK Imager, developed by AccessData (now Exterro), is a widely adopted, free forensic imaging tool that exemplifies industry best practices for evidence acquisition. The following detailed illustration demonstrates the complete forensic imaging process using FTK Imager, incorporating essential forensic principles and practical considerations.
+
+Pre-Acquisition Preparation
+
+Before initiating the imaging process, forensic investigators must establish proper evidence handling procedures and prepare the technical environment. First, the investigator documents the initial state of the evidence, including device make, model, serial number, physical condition, and any visible damage or tampering indicators (ExamCollection, 2025). This documentation becomes part of the chain of custody record that accompanies the forensic image throughout the investigation.
+
+Next, the investigator must implement write-blocking technology to prevent any modifications to the source media during the imaging process. Write blockers—available as hardware devices or software implementations—intercept write commands to storage media while allowing read operations, ensuring that the imaging process cannot alter the original evidence (Einitial24, 2025). Hardware write blockers, such as Tableau or WiebeTech devices, provide the most reliable protection and are preferred for high-stakes investigations, while software write blockers may be acceptable for lower-risk scenarios or when hardware options are unavailable.
+
+The investigator also prepares the destination storage media, ensuring it has sufficient capacity to store the complete forensic image (typically requiring space equal to or greater than the source media capacity) and has been forensically wiped to prevent cross-contamination from previous investigations. Finally, the investigator launches FTK Imager with administrative privileges and verifies that all connected devices are properly recognized by the system.
+
+Image Acquisition Process
+
+The forensic imaging process begins by selecting "Create Disk Image" from FTK Imager's File menu and choosing the appropriate source type (Physical Drive, Logical Drive, or Image File). For complete forensic acquisition, "Physical Drive" is selected to capture the entire storage device, including all partitions, unallocated space, and hidden areas (Einitial24, 2025). The investigator then selects the specific source drive from the list of available devices, carefully verifying the correct device by examining capacity, manufacturer, and model information to avoid imaging the wrong media.
+
+Next, the investigator configures the image destination and format. FTK Imager supports multiple forensic image formats, including RAW (dd), SMART, E01 (Expert Witness Format), and AFF (Advanced Forensic Format). The E01 format is commonly selected for its compression capabilities, error correction features, and widespread compatibility with forensic analysis tools (Einitial24, 2025). The investigator specifies the destination path, typically on external forensic storage media or a dedicated forensic workstation with ample storage capacity.
+
+During the configuration phase, the investigator enters critical case metadata, including case number, evidence number, examiner name, description, and notes. This metadata is embedded within the forensic image file and becomes part of the permanent evidence record (ExamCollection, 2025). The investigator also configures image segmentation options, which divide large images into smaller, more manageable files (typically 2GB or 4GB segments) to facilitate storage on various media types and simplify file transfers.
+
+Critically, the investigator enables cryptographic hash calculation, selecting appropriate algorithms (MD5, SHA-1, and/or SHA-256) to generate unique digital fingerprints of the source media. FTK Imager calculates these hash values during the imaging process and embeds them in the image metadata, providing cryptographic verification that the forensic image is an exact replica of the source media (Einitial24, 2025).
+
+Post-Acquisition Verification and Documentation
+
+After the imaging process completes, FTK Imager displays the calculated hash values for the source media and the created forensic image. The investigator documents these hash values in the chain of custody record and verifies that the source and image hash values match exactly, confirming the integrity of the forensic image (ExamCollection, 2025). Any discrepancy between source and image hash values indicates a problem with the acquisition process, requiring re-imaging of the source media.
+
+The investigator then verifies the forensic image by mounting it in FTK Imager's read-only mode and conducting a preliminary examination to confirm that the image contains the expected data structures, partitions, and file systems. This verification step ensures that the image is complete and usable for forensic analysis. Finally, the investigator completes the chain of custody documentation, recording the acquisition date, time, tools used (including version numbers), hash values, storage location, and any relevant observations or anomalies encountered during the imaging process.
+
+The completed forensic image is then stored in a secure evidence repository with appropriate access controls, and the original source media is returned to secure storage or returned to its owner, depending on the investigation requirements and legal considerations. The forensic image becomes the working copy for all subsequent analysis, ensuring that the original evidence remains pristine and available for verification if needed.
+
+Conclusion
+
+Forensic imaging represents an indispensable methodology in modern digital forensics, providing the foundation for legally admissible, comprehensive, and reliable analysis of digital evidence. By creating exact, verifiable copies of storage media while preserving original evidence integrity, forensic imaging enables investigators to conduct thorough examinations without risking evidence contamination. The FTK Imager methodology illustrated above demonstrates the rigorous technical and procedural standards that characterize professional forensic practice, incorporating write-blocking, cryptographic verification, comprehensive documentation, and chain of custody maintenance. As digital evidence continues to play an increasingly central role in criminal investigations, civil litigation, and cybersecurity incident response, mastery of forensic imaging principles and techniques remains essential for cybersecurity professionals, law enforcement personnel, and legal practitioners.
+
+================================================================================
+REFERENCES
+================================================================================
+
+Einitial24. (2025). How to create a forensic image with FTK imager. https://einitial24.com/how-to-create-a-forensic-image-with-ftk-imager/
+
+ExamCollection. (2025). Mastering disk image acquisition in digital forensics with FTK imager. https://examcollection.com/blog/mastering-disk-image-acquisition-in-digital-forensics-with-ftk-imager
+
+Webasha. (2025). 9 phases of digital forensics explained: Tools, steps, and real-world use cases. https://www.webasha.com/blog/9-phases-of-digital-forensics-explained-tools-steps-and-real-world-use-cases
+
+================================================================================
+Page Count: 3 pages (excluding references)
+Word Count: 1,847 words
+================================================================================
