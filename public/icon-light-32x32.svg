@@ -1,0 +1,22 @@
+<svg width="32" height="32" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="tealGradient32" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#20c997;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0ea5a5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Shield -->
+  <path d="M 128 20 L 210 55 L 210 140 C 210 195 128 240 128 240 C 128 240 46 195 46 140 L 46 55 Z" 
+        fill="url(#tealGradient32)"/>
+  
+  <!-- Fingerprint rings -->
+  <circle cx="128" cy="125" r="38" fill="none" stroke="white" stroke-width="3.5" opacity="0.95"/>
+  <circle cx="128" cy="125" r="30" fill="none" stroke="white" stroke-width="3" opacity="0.75"/>
+  <circle cx="128" cy="125" r="22" fill="none" stroke="white" stroke-width="2.5" opacity="0.55"/>
+  <circle cx="128" cy="125" r="14" fill="white" opacity="0.85"/>
+  
+  <!-- Medical cross -->
+  <rect x="125" y="50" width="6" height="18" rx="2" fill="white" opacity="0.8"/>
+  <rect x="118" y="57" width="20" height="6" rx="2" fill="white" opacity="0.8"/>
+</svg>
