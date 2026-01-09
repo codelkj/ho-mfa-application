@@ -90,3 +90,7 @@ MIT © 2026 HO-MFA Development Team
 ---
 
 **Built for healthcare. Designed for security. Ready for production.**
+
+## Documentation
+
+- [Capstone Project Report Appendices (PDF)](docs/Capstone-Project-Appendices-Johnson-Mabgwe.pdf)
